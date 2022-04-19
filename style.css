@@ -71,6 +71,25 @@ body {
 
 .carrinho {
     width: 15px;
+    cursor: pointer;
+}
+
+.cabecalho__itens-carrinho {
+    content: '';
+    position: absolute;
+    left: 79.4%;
+    top: 36%;
+    width: 20px;
+    height: 13px;
+    background: var(--Laranja);
+    border-radius: 50%;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
 }
 
 .avatar {
