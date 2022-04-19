@@ -110,5 +110,22 @@ body {
 }
 
 .avatar {
-    width: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.avatar:hover {
+    border: 2px solid var(--Laranja);
+    border-radius: 50%;
+}
+
+.cabecalho__linha {
+    content: '';
+    position: absolute;
+    width: 74%;
+    height: 1px;
+    background-color: var(--Azul-acinzentado);
+    left: 13%;
+    top: 90px;
+    border-radius: 50%;
 }
