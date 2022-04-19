@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700 & display=swap');
+
+:root {
+    --font: 'Kumbh Sans', sans-serif;
+
+    /*Primary*/
+    --Laranja: hsl(26, 100%, 55%);
+    --Laranja-claro: hsl(25, 100%, 94%);
+
+    /*Neutral*/
+    --Azul-muito-escuro: hsl(220, 13%, 13%);
+    --Azul-acinzentado-escuro: hsl(219, 9%, 45%);
+    --Azul-acinzentado: hsl(220, 14%, 75%);
+    --Azul-acinzentado-claro: hsl(223, 64%, 98%);
+    --Branco: hsl(0, 0%, 100%);
+
+    /*Preto com 75% de opacidade para o fundo da caixa de luz*/
+    --Preto : hsl(0, 0%, 0%);
+}
+
