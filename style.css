@@ -42,3 +42,7 @@
 .cabecalho__titulo {
     margin-right: 40px;
 }
+
+.cabecalho__menu {
+    width: 50%;
+}
