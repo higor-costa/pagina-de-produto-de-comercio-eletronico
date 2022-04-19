@@ -51,6 +51,8 @@ body {
 
 .cabecalho__titulo {
     margin-right: 40px;
+    font-size: 1.5em;
+    font-weight: 700;
 }
 
 .cabecalho__menu {
