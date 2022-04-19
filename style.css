@@ -66,6 +66,19 @@ body {
     list-style-type: none;
 }
 
+.menu__itens {
+    color: var(--Azul-acinzentado);
+    font-size: .8em;
+    
+}
+
+.menu__itens:hover {
+    border-bottom: 3px solid var(--Laranja);
+    padding-bottom: 30px;
+    color: var(--Azul-muito-escuro);
+    font-weight: 700;
+}
+
 .cabecalho__carrinho-avatar {
     display: flex;
     align-items: center;
