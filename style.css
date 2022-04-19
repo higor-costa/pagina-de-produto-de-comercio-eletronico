@@ -26,9 +26,17 @@
     text-decoration: none;
 }
 
+.cabecalho__titulo-menu {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
 .cabecalho {
     height: 6em;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
+
