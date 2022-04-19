@@ -46,3 +46,10 @@
 .cabecalho__menu {
     width: 50%;
 }
+
+.menu__lista {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
