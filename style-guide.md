@@ -1,35 +1,35 @@
-# Front-end Style Guide
+# Guia de estilo de front-end
 
-## Layout
+## Disposição
 
-The designs were created to the following widths:
+Os desenhos foram criados para as seguintes larguras:
 
-- Mobile: 375px
-- Desktop: 1440px
+- Celular: 375px
+- Área de trabalho: 1440px
 
-## Colors
+## Cores
 
-### Primary
+### Primário
 
-- Orange: hsl(26, 100%, 55%)
-- Pale orange: hsl(25, 100%, 94%)
+- Laranja: hsl(26, 100%, 55%)
+- Laranja pálido: hsl(25, 100%, 94%)
 
-### Neutral
+### Neutro
 
-- Very vark blue: hsl(220, 13%, 13%)
-- Dark grayish blue: hsl(219, 9%, 45%)
-- Grayish blue: hsl(220, 14%, 75%)
-- Light grayish blue: hsl(223, 64%, 98%)
-- White: hsl(0, 0%, 100%)
-- Black (with 75% opacity for lightbox background): hsl(0, 0%, 0%)
+- Azul muito vark: hsl(220, 13%, 13%)
+- Azul acinzentado escuro: hsl(219, 9%, 45%)
+- Azul acinzentado: hsl(220, 14%, 75%)
+- Azul acinzentado claro: hsl(223, 64%, 98%)
+- Branco: hsl(0, 0%, 100%)
+- Preto (com 75% de opacidade para o fundo da caixa de luz): hsl(0, 0%, 0%)
 
-## Typography
+## Tipografia
 
-### Body Copy
+### Cópia do corpo
 
-- Font size (paragraph): 16px
+- Tamanho da fonte (parágrafo): 16px
 
-### Font
+### Fonte
 
-- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
-- Weights: 400, 700
+- Família: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Pesos: 400, 700
