@@ -24,6 +24,14 @@
     box-sizing: border-box;
     outline: none;
     text-decoration: none;
+    font-family: var(--font);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 .cabecalho {
