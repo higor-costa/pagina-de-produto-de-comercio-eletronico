@@ -53,3 +53,11 @@
     justify-content: space-between;
     list-style-type: none;
 }
+
+.cabecalho__carrinho-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 8%;
+}
+
