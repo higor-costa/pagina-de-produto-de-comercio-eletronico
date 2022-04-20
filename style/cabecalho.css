@@ -27,13 +27,6 @@
     font-family: var(--font);
 }
 
-body {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-}
-
 .cabecalho {
     height: 6em;
     display: flex;
