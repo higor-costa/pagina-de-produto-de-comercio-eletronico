@@ -42,8 +42,10 @@
     align-items: center;
 }
 
-.cabecalho__logo {
-    margin-right: 10px;
+.cabecalho__titulo {
+    margin-right: 40px;
+    font-size: 1.5em;
+    font-weight: 700;
 }
 
 .cabecalho__menu {
@@ -51,7 +53,7 @@
 }
 
 .menu__lista {
-    width: 100%;
+    justify-content: space-evenly;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
