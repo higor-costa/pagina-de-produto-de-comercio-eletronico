@@ -110,6 +110,13 @@
     top: 80%;
 }
 
+.carrinho-caixa__titulo {
+    display: flex;
+    padding: 15px;
+    font-weight: 600;
+    border-bottom: 1px solid var(--Azul-acinzentado);
+}
+
 .avatar {
     width: 40px;
     cursor: pointer;
