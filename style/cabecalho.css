@@ -117,6 +117,13 @@
     border-bottom: 1px solid var(--Azul-acinzentado);
 }
 
+.carrinho-caixa__itens {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 75%;
+}
+
 .avatar {
     width: 40px;
     cursor: pointer;
