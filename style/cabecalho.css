@@ -76,11 +76,6 @@
     width: 8%;
 }
 
-.carrinho {
-    width: 20px;
-    cursor: pointer;
-}
-
 .cabecalho__itens-carrinho {
     content: '';
     position: absolute;
@@ -96,6 +91,11 @@
     align-items: center;
     justify-content: center;
     user-select: none;
+    cursor: pointer;
+}
+
+.carrinho {
+    width: 20px;
     cursor: pointer;
 }
 
