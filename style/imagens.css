@@ -1,6 +1,6 @@
 .secao-completa {
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
    align-items: center;
    margin-top: 80px;
 }
