@@ -124,6 +124,11 @@
    height: 75%;
 }
 
+.carrinho-caixa__mensagem {
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
 .avatar {
     width: 40px;
     cursor: pointer;
