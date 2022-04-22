@@ -108,6 +108,7 @@
     position: absolute;
     left: 67%;
     top: 80%;
+    display: none;
 }
 
 .carrinho-caixa__titulo {
