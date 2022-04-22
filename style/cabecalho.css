@@ -102,7 +102,7 @@
 .carrinho-caixa {
     background-color: white;
     width: 17em;
-    height: 13em;
+    min-height: 13em;
     border-radius: 8px;
     box-shadow: 0px 5px 20px 1px #00000047;
     position: absolute;
@@ -161,7 +161,7 @@
 .nome-item,
 .valor-item {
     font-size: 0.7em;
-    color: var(--Azul-acinzentado-escuro);
+    font-weight: 600;
 }
 
 .valor-total {
