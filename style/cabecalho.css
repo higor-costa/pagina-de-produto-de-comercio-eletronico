@@ -186,6 +186,11 @@
     cursor: pointer;
 }
 
+.avatar {
+    width: 40px;
+    cursor: pointer;
+}
+
 .avatar:hover {
     border: 2px solid var(--Laranja);
     border-radius: 50%;
