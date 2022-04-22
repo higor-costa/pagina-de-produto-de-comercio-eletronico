@@ -161,12 +161,12 @@
 .nome-item,
 .valor-item {
     font-size: 0.7em;
-    color: var(--Azul-acinzentado-escuro);
+    font-weight: 600;
 }
 
-.avatar {
-    width: 40px;
-    cursor: pointer;
+.valor-total {
+    color: var(--Azul-muito-escuro);
+    font-weight: 600;
 }
 
 .icone-lixeira {
