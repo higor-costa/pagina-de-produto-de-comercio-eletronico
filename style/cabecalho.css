@@ -143,7 +143,6 @@
 .item-adicionado {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
 }
 .item-thumbnail {
     width: 45px;
@@ -168,6 +167,7 @@
 
 .icone-lixeira {
     width: 12px;
+    margin-top: 10px;
 }
 
 .botao-checkout {
