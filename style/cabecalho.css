@@ -142,16 +142,9 @@
 
 .item-adicionado {
     display: flex;
-    margin-bottom: 10px;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
-
-.item__nome-valor {
-    margin: 10px;
-}
-
 .item-thumbnail {
     width: 45px;
     height: 45px;
