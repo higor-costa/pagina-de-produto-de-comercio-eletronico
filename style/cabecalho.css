@@ -161,6 +161,11 @@
 .nome-item,
 .valor-item {
     font-size: 0.7em;
+    color: var(--Azul-acinzentado-escuro);
+}
+
+.valor-total {
+    color: var(--Azul-muito-escuro);
     font-weight: 600;
 }
 
