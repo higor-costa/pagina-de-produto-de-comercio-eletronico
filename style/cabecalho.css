@@ -158,7 +158,8 @@
     margin-bottom: 8px;
 }
 
-.carrinho-caixa__mensagem {
+.nome-item,
+.valor-item {
     font-size: 0.7em;
     font-weight: 600;
 }
