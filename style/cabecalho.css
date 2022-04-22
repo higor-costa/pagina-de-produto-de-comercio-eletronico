@@ -153,7 +153,9 @@
     height: 45px;
     border-radius: 5px;
 }
-   height: 75%;
+
+.nome-item {
+    margin-bottom: 8px;
 }
 
 .carrinho-caixa__mensagem {
