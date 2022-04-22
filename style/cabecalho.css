@@ -161,16 +161,28 @@
 .nome-item,
 .valor-item {
     font-size: 0.7em;
-    color: var(--Azul-acinzentado-escuro);
-}
-
-.valor-total {
-    color: var(--Azul-muito-escuro);
     font-weight: 600;
 }
 
 .avatar {
     width: 40px;
+    cursor: pointer;
+}
+
+.icone-lixeira {
+    width: 12px;
+}
+
+.botao-checkout {
+    background-color: var(--Laranja);
+    color: var(--Azul-acinzentado-claro);
+    border: none;
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding: 15px;
     cursor: pointer;
 }
 
