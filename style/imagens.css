@@ -13,7 +13,8 @@
     grid-template-rows: 340px 80px;
 }
 
-.imagem1 {
+.imagem {
+    display: none;
     width: 100%;
     border-radius: 15px;
     grid-column: 1 / 5;
