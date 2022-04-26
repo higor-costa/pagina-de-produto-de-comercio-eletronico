@@ -31,3 +31,43 @@ function mostrarThumbs() {
   imagens[slideIndex-1].style.display = "block";
   thumbs[slideIndex-1].className += " active";
 }
+
+
+// Abre o Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+// Fechar o Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slidesIndex = 1;
+showSlides(slidesIndex);
+
+// Controles próximo/anterior
+function plusSlide(n) {
+  showSlides(slidesIndex += n);
+}
+
+// Controle de imagens em miniatura
+function currentSlide(n) {
+  showSlides(slidesIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > slides.length) {slidesIndex = 1}
+  if (n < 1) {slidesIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" ativo", "");
+  }
+  slides[slidesIndex-1].style.display = "block";
+  dots[slidesIndex-1].className += " ativo";
+}
