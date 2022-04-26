@@ -68,6 +68,40 @@
                 <img src="images/image-product-4-thumbnail.jpg" alt="Thumbnail 4" class="thumbnail4 thumb" onclick="thumbAtual(4)">
             </div>
 
+            <div id="myModal" class="modal"> 
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+                    <div class="mySlides">
+                        <img src="images/image-product-1.jpg" >
+                    </div>
+                    <div class="mySlides">
+                        <img src="images/image-product-2.jpg" >
+                    </div>
+                    <div class="mySlides">
+                        <img src="images/image-product-3.jpg" >
+                    </div>
+                    <div class="mySlides">
+                        <img src="images/image-product-4.jpg" >
+                    </div>
+
+                    <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlide(1)">&#10095;</a>
+
+                    <div class="column">
+                        <img src="images/image-product-1-thumbnail.jpg" alt="" style="width: 100%;" class="demo demo1 cursor" onclick="currentSlide(1)">
+                    </div>
+                    <div class="column">
+                        <img src="images/image-product-2-thumbnail.jpg" alt="" style="width: 100%;" class="demo demo2 cursor" onclick="currentSlide(2)">
+                    </div>
+                    <div class="column">
+                        <img src="images/image-product-3-thumbnail.jpg" alt="" style="width: 100%;" class="demo demo3 cursor" onclick="currentSlide(3)">
+                    </div>
+                    <div class="column">
+                        <img src="images/image-product-4-thumbnail.jpg" alt="" style="width: 100%;" class="demo demo4 cursor" onclick="currentSlide(4)">
+                    </div>
+                </div>
+            </div>
+
             <div class="secao-informacoes">
                 <span class="secao-informacoes__sneaker-company">Sneaker Company</span>
                 <h1 class="secao-informacoes__titulo">Fall Limited Edition <br> Sneakers</h1>
