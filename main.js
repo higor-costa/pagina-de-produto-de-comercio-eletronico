@@ -87,3 +87,20 @@ function menos() {
     break;
   }
 }
+
+// Função para adicionar itens ao carrinho quando o botão "Add to cart" for clicado
+function addCart() {
+  // Enquanto o carrinho estiver vazio o balãozinho laranja ficará invisível, será exibido apenas quando a quantidade de itens for maior que zero
+  let itensCarrinho = document.getElementById('itens-carrinho')
+  itensCarrinho.innerHTML = quantidade.innerHTML
+  itensCarrinho.style.visibility = "visible" 
+  if (itensCarrinho.innerHTML == 0) {
+    itensCarrinho.style.visibility = "hidden" 
+  }
+
+  // Esconde a caixa com a mensagem de carrinho vazio e exibe a caixa com o item que foi adicionado
+  let carrinhoMensagem = document.getElementById('carrinho-vazio')
+  carrinhoMensagem.classList.add("esconder");
+  let caixaItens = document.getElementById('caixa__itens')
+  caixaItens.classList.remove("esconder")
+} 
