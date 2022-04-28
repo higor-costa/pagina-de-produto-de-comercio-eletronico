@@ -71,3 +71,19 @@ function showSlides(n) {
   slides[slidesIndex-1].style.display = "block";
   dots[slidesIndex-1].className += " ativo";
 }
+
+// Função para aumentar e diminuir itens no carrinho
+let quantidade = document.querySelector(".botoes__quantidade-itens")
+let contador = 0;
+function mais() {
+  contador++
+  quantidade.innerHTML = contador 
+}
+
+function menos() {
+  while(quantidade.innerHTML > 0) {
+    contador--
+    quantidade.innerHTML = contador
+    break;
+  }
+}
