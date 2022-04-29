@@ -171,6 +171,7 @@
 .icone-lixeira {
     width: 12px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .botao-checkout {
