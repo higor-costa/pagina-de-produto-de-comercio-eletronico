@@ -111,3 +111,12 @@ function addCart() {
   let valorTotal = document.querySelector('.valor-total')
   valorTotal.innerHTML = `$${calculoPreco.toFixed(2)}`
 } 
+
+function removeItem() {
+  let carrinhoMensagem = document.getElementById('carrinho-vazio')
+  carrinhoMensagem.classList.remove("esconder")
+  let caixaItens = document.getElementById('caixa__itens')
+  caixaItens.classList.add("esconder")
+  let itensCarrinho = document.getElementById('itens-carrinho')
+  itensCarrinho.style.visibility = "hidden"
+}
