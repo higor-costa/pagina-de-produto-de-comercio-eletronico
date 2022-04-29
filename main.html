@@ -41,7 +41,7 @@
                             <img src="images/image-product-1-thumbnail.jpg" alt="Thumbnail 1" class="item-thumbnail">
                             <div class="item__nome-valor">
                                 <p class="nome-item">Fall Limited Edition Sneakers</p>
-                                <p class="valor-item">$125.00 x 3 <span class="valor-total">$375.00</span></p>
+                                <p class="valor-item">$125.00 x <span id="quantidade"><!--número de vezes que o produto foi adicionado ao carrinho--></span> <span class="valor-total"><!--valor total da compra--></span></p>
                             </div>
                             <img src="images/icon-delete.svg" alt="ícone lixeira" class="icone-lixeira">
                         </div>
@@ -122,7 +122,7 @@
                         <span class="botoes__quantidade-itens">0</span>
                         <img src="images/icon-plus.svg" alt="Botão com sinal de mais" class="botoes__botao-mais" onclick="mais()">
                     </div>
-                    <button class="botoes__botao-adiciona">
+                    <button class="botoes__botao-adiciona" onclick="addCart()">
                         <i class="fa-solid fa-cart-shopping"></i>
                         Add to cart
                     </button>
