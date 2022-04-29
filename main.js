@@ -103,4 +103,11 @@ function addCart() {
   carrinhoMensagem.classList.add("esconder");
   let caixaItens = document.getElementById('caixa__itens')
   caixaItens.classList.remove("esconder")
+
+  // Multiplica o valor do produto pela quantidade de vezes que ele foi adicionado ao carrinho, resultando no valor total da compra
+  let itensAdicionados = document.querySelector('#quantidade')
+  itensAdicionados.innerHTML = quantidade.innerHTML
+  let calculoPreco = 125 * itensAdicionados.innerHTML
+  let valorTotal = document.querySelector('.valor-total')
+  valorTotal.innerHTML = `$${calculoPreco.toFixed(2)}`
 } 
