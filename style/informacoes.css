@@ -87,6 +87,11 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: .3s ease;
+}
+
+.botoes__botao-adiciona:hover {
+    background-color: hsl(26deg 100% 55% / 58%);
 }
 
 .botoes__carrinho {
