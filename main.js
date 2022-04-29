@@ -100,7 +100,6 @@ function addCart() {
 
   // Esconde a caixa com a mensagem de carrinho vazio e exibe a caixa com o item que foi adicionado
   let carrinhoMensagem = document.getElementById('carrinho-vazio')
-  carrinhoMensagem.classList.add("esconder");
   let caixaItens = document.getElementById('caixa__itens')
   if(itensCarrinho.innerHTML == 0) {
     carrinhoMensagem.classList.remove('esconder')
