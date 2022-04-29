@@ -102,7 +102,13 @@ function addCart() {
   let carrinhoMensagem = document.getElementById('carrinho-vazio')
   carrinhoMensagem.classList.add("esconder");
   let caixaItens = document.getElementById('caixa__itens')
-  caixaItens.classList.remove("esconder")
+  if(itensCarrinho.innerHTML == 0) {
+    carrinhoMensagem.classList.remove('esconder')
+    caixaItens.classList.add('esconder')
+  } else {
+    caixaItens.classList.remove('esconder')
+    carrinhoMensagem.classList.add('esconder')
+  }
 
   // Multiplica o valor do produto pela quantidade de vezes que ele foi adicionado ao carrinho, resultando no valor total da compra
   let itensAdicionados = document.querySelector('#quantidade')
