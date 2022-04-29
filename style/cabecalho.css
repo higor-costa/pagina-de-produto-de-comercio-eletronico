@@ -185,6 +185,11 @@
     justify-content: center;
     padding: 15px;
     cursor: pointer;
+    transition: .3s ease;
+}
+
+.botao-checkout:hover {
+    background-color: hsl(26deg 100% 55% / 58%);
 }
 
 .avatar {
