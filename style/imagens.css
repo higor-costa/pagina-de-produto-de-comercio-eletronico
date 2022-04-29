@@ -52,6 +52,10 @@
     grid-row: 2 / 3;
 }
 
+.thumb {
+    transition: .5s ease;
+}
+
 .active, .thumb:hover {
     border: 2px solid var(--Laranja);
     filter: opacity(30%);
