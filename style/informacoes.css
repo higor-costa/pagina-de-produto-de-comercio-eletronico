@@ -104,3 +104,36 @@
     font-size: 12px;
     margin-right: 10px;
 }
+
+@media screen and (max-width: 768px) {
+   .secao-informacoes {
+       width: 100%;
+       padding: 20px 30px;
+   }
+
+   .valores {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+   }
+
+   .valores__preco-porcentagem {
+       margin-right: 20px;
+   }
+
+   .botoes {
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .botoes__adicionar-remover,
+   .botoes__botao-adiciona {
+       width: 100%;
+       margin: auto;
+   }
+
+   .botoes__botao-adiciona {
+      height: 3em;
+      margin-top: 15px;
+   }
+}
