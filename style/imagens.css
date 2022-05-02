@@ -70,3 +70,24 @@
     from {opacity: .4}
     to {opacity: 1}
 }
+
+@media screen and (max-width: 768px) {
+    .secao-completa {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .secao__imagens {
+        margin-right: inherit;
+        display: block;
+    }
+
+    .imagem {
+        width: 100vw;
+        border-radius: inherit;
+    }
+
+    .thumb {
+        display: none;
+    }
+}
