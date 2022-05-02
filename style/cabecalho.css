@@ -56,6 +56,10 @@
     list-style-type: none;
 }
 
+.menu__lista > li {
+    margin-right: 20px;
+}
+
 .menu__itens {
     color: var(--Azul-acinzentado);
     font-size: .8em;
