@@ -68,7 +68,7 @@
 
 .menu__itens:hover {
     border-bottom: 3px solid var(--Laranja);
-    padding-bottom: 30px;
+    padding-bottom: 36px;
     color: var(--Azul-muito-escuro);
     font-weight: 700;
 }
