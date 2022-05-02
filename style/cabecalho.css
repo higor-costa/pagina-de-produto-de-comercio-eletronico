@@ -124,7 +124,8 @@
 }
 
 .carrinho-caixa__itens {
-   height: 10em;
+    height: 12em;
+    padding: 10px 0;
 }
 
 .carrinho-caixa__mensagem {
