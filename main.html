@@ -15,6 +15,7 @@
 <body>
     <header class="cabecalho">
         <div class="cabecalho__titulo-menu">
+            <img src="images/icon-menu.svg" alt="" class="cabecalho__icone">
             <img src="images/logo.svg" alt="logo" class="cabecalho__logo">
             <nav class="cabecalho__menu">
                 <ul class="menu__lista">
@@ -66,6 +67,9 @@
 
                 <img src="images/image-product-4.jpg" alt="Imagem do Tênis" class="imagem fade" onclick="openModal()">
                 <img src="images/image-product-4-thumbnail.jpg" alt="Thumbnail 4" class="thumbnail4 thumb" onclick="thumbAtual(4)">
+
+                <a class="btn-anterior" onclick="imagemAtual(-1)">&#10094;</a>
+                <a class="btn-proximo" onclick="imagemAtual(1)">&#10095;</a>
             </div>
 
             <div id="myModal" class="modal"> 
@@ -106,8 +110,8 @@
                 <span class="secao-informacoes__sneaker-company">Sneaker Company</span>
                 <h1 class="secao-informacoes__titulo">Fall Limited Edition <br> Sneakers</h1>
                 <p class="secao-informacoes__descricao-produto">
-                    These low-profile sneakers are your perfect casual wear <br> companion. Featuring a 
-                    durable rubber outer sole, they'll <br> withstand everything the weather can offer.
+                    These low-profile sneakers are your perfect casual wear companion. Featuring a 
+                    durable rubber outer sole, they'll withstand everything the weather can offer.
                 </p>
                 <div class="valores">
                     <div class="valores__preco-porcentagem">
