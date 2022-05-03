@@ -78,6 +78,7 @@
     }
 
     .secao__imagens {
+        position: relative;
         margin-right: inherit;
         display: block;
     }
