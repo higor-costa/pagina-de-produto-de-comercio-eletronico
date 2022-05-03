@@ -125,3 +125,23 @@ function removeItem() {
   let itensCarrinho = document.getElementById('itens-carrinho')
   itensCarrinho.style.visibility = "hidden"
 }
+
+
+// Slideshow mobile
+let slideindex = 1;
+mostrarImagem(slideindex);
+
+function imagemAtual(n) {
+  mostrarImagem(slideindex += n);
+}
+
+function mostrarImagem(n) {
+  let index;
+  let imagem = document.getElementsByClassName('imagem');
+  if(n > imagem.length) {slideindex = 1}
+  if(n < 1) {slideindex = imagem.length}
+  for(index = 0; index < imagem.length; index++) {
+    imagem[index].style.display = "none";
+  }
+  imagem[slideindex-1].style.display = "block";
+}
