@@ -279,7 +279,7 @@
 
     .cabecalho__menu > img, 
     .menu__lista {
-        display: none;
+        padding: 20px 0 0 20px;
     }
 
     .cabecalho__linha {
