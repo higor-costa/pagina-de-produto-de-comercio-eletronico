@@ -223,6 +223,23 @@
     display: none;
 }
 
+@media screen and (min-width: 1024px) {
+    .cabecalho__icone {
+        display: none;
+    }
+
+    .cabecalho__menu > img {
+        display: none;
+    }
+
+    .menu__itens:hover {
+        border-bottom: 3px solid var(--Laranja);
+        padding-bottom: 36px;
+        color: var(--Azul-muito-escuro);
+        font-weight: 700;
+    }
+}
+
 @media screen and (max-width: 1023px) {
     .cabecalho {
         height: 4em;
