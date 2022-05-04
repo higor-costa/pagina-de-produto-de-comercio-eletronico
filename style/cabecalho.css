@@ -256,6 +256,28 @@
         align-items: flex-end;
     }
 
+    .cabecalho__titulo-menu .open-menu,
+    .cabecalho__titulo-menu .close-menu {
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .cabecalho__menu {
+        display: flex;
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background: #fff;
+        width: 0;
+        overflow: hidden;
+        transition: 0.5s;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cabecalho__menu > img, 
     .menu__lista {
         display: none;
     }
