@@ -289,7 +289,7 @@
 
     .menu__lista > li {
         margin: 0 0 10px 0;
-}
+    }
 
 @media screen and (min-width: 1024px) {
     .cabecalho__icone {
