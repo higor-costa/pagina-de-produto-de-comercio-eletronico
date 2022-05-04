@@ -300,8 +300,7 @@
     .cabecalho__linha {
         display: none;
     }
-}
-@media screen and (max-width: 768px) {
+
     .carrinho-caixa {
         width: 24em;
         left: 50%;
