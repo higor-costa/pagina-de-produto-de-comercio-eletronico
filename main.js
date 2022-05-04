@@ -145,3 +145,12 @@ function mostrarImagem(n) {
   }
   imagem[slideindex-1].style.display = "block";
 }
+
+function openMenu() {
+  document.querySelector('.cabecalho__menu').style.width = "200px";
+}
+
+function closeMenu() {
+  document.querySelector('.cabecalho__menu').style.width = "0";
+}
+
