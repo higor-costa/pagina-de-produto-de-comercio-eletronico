@@ -291,8 +291,13 @@
         margin: 0 0 10px 0;
     }
 
-@media screen and (min-width: 1024px) {
-    .cabecalho__icone {
+    .menu__itens {
+        color: var(--Azul-muito-escuro);
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    .cabecalho__linha {
         display: none;
     }
 }
