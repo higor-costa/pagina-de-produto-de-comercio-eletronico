@@ -83,8 +83,8 @@
 .cabecalho__itens-carrinho {
     content: '';
     position: absolute;
-    left: 75.8%;
-    top: 34%;
+    left: 10px;
+    top: 5px;
     width: 20px;
     height: 13px;
     background: var(--Laranja);
