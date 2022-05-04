@@ -282,8 +282,9 @@
         padding: 20px 0 0 20px;
     }
 
-    .cabecalho__linha {
-        display: none;
+    .menu__lista {
+        margin-top: 30px;
+        flex-direction: column;
     }
 }
 
