@@ -138,3 +138,9 @@
       margin-top: 15px;
    }
 }
+
+@media screen and (max-width: 768px) {
+    .secao-informacoes__sneaker-company {
+        font-size: .8em;
+    }
+}
