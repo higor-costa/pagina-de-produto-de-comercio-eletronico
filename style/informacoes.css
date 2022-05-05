@@ -20,6 +20,7 @@
     font-size: .8em;
     line-height: 20px;
     font-family: var(--font);
+    width: 90%;
 }
 
 .valores {
