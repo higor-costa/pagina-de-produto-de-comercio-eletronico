@@ -191,7 +191,7 @@
     align-items: center;
     width: 100%;
     justify-content: center;
-    height: 40px;
+    padding: 15px;
     cursor: pointer;
     transition: .3s ease;
 }
