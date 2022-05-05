@@ -80,11 +80,15 @@
     width: 100px;
 }
 
+.cart {
+    position: relative;
+}
+
 .cabecalho__itens-carrinho {
     content: '';
     position: absolute;
     left: 10px;
-    top: 5px;
+    bottom: 13px;
     width: 20px;
     height: 13px;
     background: var(--Laranja);
