@@ -242,6 +242,7 @@
 @media screen and (max-width: 768px) {
     .cabecalho {
         height: 4em;
+        width: 100%;
         justify-content: space-around;
     }
 
