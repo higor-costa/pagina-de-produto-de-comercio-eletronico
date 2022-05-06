@@ -124,6 +124,11 @@
     .valores__valor-atual {
         font-size: 1.2em;
     }
+
+    .botoes {
+        flex-direction:  column;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 1023px) {
