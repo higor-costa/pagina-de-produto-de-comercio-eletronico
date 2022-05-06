@@ -72,7 +72,9 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-    
+    .secao-completa {
+        margin-top: 1.3em;
+    }
 }
 
 @media screen and (min-width: 769px) {
