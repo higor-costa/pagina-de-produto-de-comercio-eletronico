@@ -239,7 +239,7 @@
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
     .cabecalho {
         height: 4em;
         justify-content: space-around;
