@@ -76,6 +76,10 @@
         align-items: flex-start;
         margin-top: 1.3em;
     }
+
+    .secao__imagens {
+        
+    }
 }
 
 @media screen and (min-width: 769px) {
