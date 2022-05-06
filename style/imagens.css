@@ -73,6 +73,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .secao-completa {
+        align-items: flex-start;
         margin-top: 1.3em;
     }
 }
