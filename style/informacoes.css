@@ -114,6 +114,10 @@
     .secao-informacoes__descricao-produto {
         line-height: 15px;
     }
+
+    .valores {
+        
+    }
 }
 
 @media screen and (max-width: 1023px) {
