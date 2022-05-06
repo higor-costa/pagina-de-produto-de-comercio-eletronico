@@ -208,7 +208,7 @@
 .cabecalho__linha {
     content: '';
     position: absolute;
-    width: 65%;
+    width: 100%;
     height: 1px;
     background-color: var(--Azul-acinzentado);
     left: 50%;
