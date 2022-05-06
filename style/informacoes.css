@@ -130,6 +130,10 @@
         align-items: center;
     }
 
+    .botoes__adicionar-remover {
+        margin: auto;
+    }
+
     .botoes__adicionar-remover,
     .botoes__botao-adiciona {
         width: 100%;
