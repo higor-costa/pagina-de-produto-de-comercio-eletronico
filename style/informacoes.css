@@ -120,6 +120,10 @@
         justify-content: space-between;
         margin: 10px 0;
     }
+
+    .valores__valor-atual {
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (max-width: 1023px) {
