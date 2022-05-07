@@ -125,6 +125,20 @@
     opacity: 30%;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .close {
+        right: 335px;
+    }
+
+    .prev {
+        left: 265px;
+    }
+
+    .next {
+        left: 600px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .close {
         color: white;
