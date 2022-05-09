@@ -148,6 +148,8 @@ function mostrarImagem(n) {
 
 function openMenu() {
   document.querySelector('.cabecalho__menu').style.width = "200px";
+  let caixaMensagem = document.getElementById("caixa-mensagem");
+  caixaMensagem.style.display = 'none'
 }
 
 function closeMenu() {
