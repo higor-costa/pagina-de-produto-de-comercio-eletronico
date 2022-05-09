@@ -5,6 +5,7 @@ function mostrarCaixa() {
         caixaMensagem.style.display = "none";
     } else {
         caixaMensagem.style.display = "block";
+        document.querySelector('.cabecalho__menu').style.width = "0";
     }
 }
 
