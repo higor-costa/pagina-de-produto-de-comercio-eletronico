@@ -60,7 +60,7 @@ Os usuários devem ser capazes de:
 
 ### O que eu aprendi / dificuldades
 
-Sem dúvidas o maior desafio neste projeto foi desenvolvedor a interatividade. A linguagem de programação usada foi JavaScript! Lightbox e menu mobile são coisas que, até então, eu ainda não havia trabalhado, foi a primeira que pude desenvolver e gostei bastante do resultado! A documentação foi essêncial para que eu pudesse chegar ao resultado obtido. Slideshow, exibir/ocultar elementos, lightbox e menu mobile me ajudaram a desenvolver ainda mais a questão da lógica. Tudo foi feito com eventos, funções, estruturas de repetição e de condição. Projeto excelente para poder praticar estes conceitos!
+Sem dúvidas o maior desafio neste projeto foi desenvolvedor a interatividade. A linguagem de programação usada foi JavaScript! Lightbox e menu mobile são coisas que, até então, eu ainda não havia trabalhado, foi a primeira que pude desenvolver e gostei bastante do resultado! A documentação foi essencial para que eu pudesse chegar ao resultado obtido. Slideshow, exibir/ocultar elementos, lightbox e menu mobile me ajudaram a desenvolver ainda mais a questão da lógica. Tudo foi feito com eventos, funções, estruturas de repetição e de condição. Projeto excelente para poder praticar estes conceitos!
 Além da interatividade, também tive um pouco de dificuldade com a posição de alguns elementos, especificamente, aqueles que precisaram de uma position absolute. Porém, depois de ver vídeos no YouTube, consegui entender melhor a propriedade e chegar ao resultado esperado. Então foi algo que também pratiquei bastante durante o desenvolvimento dessa página.
 
 ### Desenvolvimento contínuo
