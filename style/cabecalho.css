@@ -67,7 +67,7 @@ body {
 }
 
 .menu__itens {
-    color: var(--Azul-acinzentado);
+    color: var(--Azul-acinzentado-escuro);
     font-size: .8em;
     
 }
