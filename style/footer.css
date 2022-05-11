@@ -4,25 +4,24 @@
     align-items: center;
     width: 100%;
     padding: 5px;
-    background-color: var(--Laranja);
+    border-top: 2px solid var(--Azul-acinzentado);
 }
 
 .attribution {
     display: flex;
     text-align: center;
-    color:white; 
+    color: var(--Azul-acinzentado-escuro); 
     cursor: pointer;
     font-size: .8em;
 }
 
 .attribution a {
-    color: black;
+    color: var(--Azul-muito-escuro);
     padding: 0 3px;
     transition: .5s ease-in-out;
     text-decoration: underline;
 }
 
 .attribution a:hover {
-    background-color: black;
     color: var(--Laranja);
 }
