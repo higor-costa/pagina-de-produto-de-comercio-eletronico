@@ -93,9 +93,9 @@ function menos() {
 function addCart() {
   // Enquanto o carrinho estiver vazio o balãozinho laranja ficará invisível, será exibido apenas quando a quantidade de itens for maior que zero
   let itensCarrinho = document.getElementById('itens-carrinho')
-  itensCarrinho.innerHTML = quantidade.innerHTML
+  itensCarrinho.innerText = quantidade.innerText
   itensCarrinho.style.visibility = "visible" 
-  if (itensCarrinho.innerHTML == 0) {
+  if (itensCarrinho.innerText == 0) {
     itensCarrinho.style.visibility = "hidden" 
   }
 
