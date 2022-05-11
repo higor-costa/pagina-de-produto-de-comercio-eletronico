@@ -313,7 +313,7 @@ body {
     }
 
     .item__nome-valor {
-        margin-right: 50px;
+        margin: 0 50px 0 10px;
     }
 }
 
