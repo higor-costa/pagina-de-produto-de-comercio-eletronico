@@ -77,14 +77,14 @@ function showSlides(n) {
 let quantidade = document.querySelector(".botoes__quantidade-itens")
 let contador = 0;
 function mais() {
-  contador++
-  quantidade.innerHTML = contador 
+  contador++;
+  quantidade.innerText = contador;
 }
 
 function menos() {
-  while(quantidade.innerHTML > 0) {
-    contador--
-    quantidade.innerHTML = contador
+  while(quantidade.innerText > 0) {
+    contador--;
+    quantidade.innerText = contador;
     break;
   }
 }
