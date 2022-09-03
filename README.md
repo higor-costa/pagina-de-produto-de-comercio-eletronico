@@ -19,15 +19,15 @@ Esta é uma solução para o [desafio da página do produto de comércio eletrô
 
 - No desktop:
 
-![](screenshot/screenshot1.png)
-![](screenshot/screenshot2.png)
+![](assets/imagens/screenshot/screenshot1.png)
+![](assets/imagens/screenshot/screenshot2.png)
 
 - No mobile:
 
-![](screenshot/screenshot-mobile1.png)
-![](screenshot/screenshot-mobile2.png)
-![](screenshot/screenshot-mobile3.png)
-![](screenshot/screenshot-mobile4.jpeg)
+![](assets/imagens/screenshot/screenshot-mobile1.png)
+![](assets/imagens/screenshot/screenshot-mobile2.png)
+![](assets/imagens/screenshot/screenshot-mobile3.png)
+![](assets/imagens/screenshot/screenshot-mobile4.jpeg)
 
 ### Links
 

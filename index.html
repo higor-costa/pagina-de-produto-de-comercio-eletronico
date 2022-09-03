@@ -6,20 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-commerce product page</title>
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="stylesheet" href="style/cabecalho.css">
-    <link rel="stylesheet" href="style/imagens.css">
-    <link rel="stylesheet" href="style/informacoes.css">
-    <link rel="stylesheet" href="style/lightbox.css">
-    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="assets/style/cabecalho.css">
+    <link rel="stylesheet" href="assets/style/imagens.css">
+    <link rel="stylesheet" href="assets/style/informacoes.css">
+    <link rel="stylesheet" href="assets/style/lightbox.css">
+    <link rel="stylesheet" href="assets/style/footer.css">
     <script src="https://kit.fontawesome.com/47c43d19e3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="cabecalho">
         <div class="cabecalho__titulo-menu">
-            <img src="images/icon-menu.svg" alt="" class="cabecalho__icone open-menu" onclick="openMenu()">
-            <img src="images/logo.svg" alt="logo" class="cabecalho__logo">
+            <img src="assets/images/icon-menu.svg" alt="" class="cabecalho__icone open-menu" onclick="openMenu()">
+            <img src="assets/images/logo.svg" alt="logo" class="cabecalho__logo">
             <nav class="cabecalho__menu">
-                <img src="images/icon-close.svg" alt="" class="close-menu" onclick="closeMenu()">
+                <img src="assets/images/icon-close.svg" alt="" class="close-menu" onclick="closeMenu()">
                 <ul class="menu__lista">
                     <li><a href="#" class="menu__itens">Collections</a></li>
                     <li><a href="#" class="menu__itens">Men</a></li>
@@ -33,7 +33,7 @@
         <div class="cabecalho__carrinho-avatar">
             <div class="cart">
                 <span class="cabecalho__itens-carrinho" id="itens-carrinho">0</span>
-                <img src="images/icon-cart.svg" alt="ícone do carrinho de compras" class="carrinho" onclick="mostrarCaixa()">
+                <img src="assets/images/icon-cart.svg" alt="ícone do carrinho de compras" class="carrinho" onclick="mostrarCaixa()">
             </div>
             <div class="carrinho-caixa" id="caixa-mensagem">
                 <span class="carrinho-caixa__titulo">Cart</span>
@@ -43,34 +43,34 @@
                     </div>
                     <div class="caixa__itens esconder" id="caixa__itens">
                         <div class="item-adicionado">
-                            <img src="images/image-product-1-thumbnail.jpg" alt="Thumbnail 1" class="item-thumbnail">
+                            <img src="assets/images/image-product-1-thumbnail.jpg" alt="Thumbnail 1" class="item-thumbnail">
                             <div class="item__nome-valor">
                                 <p class="nome-item">Fall Limited Edition Sneakers</p>
                                 <p class="valor-item">$125.00 x <span id="quantidade"><!--número de vezes que o produto foi adicionado ao carrinho--></span> <span class="valor-total"><!--valor total da compra--></span></p>
                             </div>
-                            <img src="images/icon-delete.svg" alt="ícone lixeira" class="icone-lixeira" onclick="removeItem()">
+                            <img src="assets/images/icon-delete.svg" alt="ícone lixeira" class="icone-lixeira" onclick="removeItem()">
                         </div>
                         <input type="button" value="Checkout" class="botao-checkout">
                     </div>
                 </div>
             </div>
-            <img src="images/image-avatar.png" alt="Foto de perfil" class="avatar">
+            <img src="assets/images/image-avatar.png" alt="Foto de perfil" class="avatar">
         </div>
     </header>
     <main>
         <section class="secao-completa">
             <div class="secao__imagens">
-                <img src="images/image-product-1.jpg" alt="Imagem do Tênis" class="imagem fade" onclick="openModal()">
-                <img src="images/image-product-1-thumbnail.jpg" alt="Thumbnail 1" class="thumbnail1 thumb" onclick="thumbAtual(1)">
+                <img src="assets/images/image-product-1.jpg" alt="Imagem do Tênis" class="imagem fade" onclick="openModal()">
+                <img src="assets/images/image-product-1-thumbnail.jpg" alt="Thumbnail 1" class="thumbnail1 thumb" onclick="thumbAtual(1)">
 
-                <img src="images/image-product-2.jpg" alt="Imagem do Tênis" class="imagem fade" onclick="openModal()">
-                <img src="images/image-product-2-thumbnail.jpg" alt="Thumbnail 2" class="thumbnail2 thumb" onclick="thumbAtual(2)">
+                <img src="assets/images/image-product-2.jpg" alt="Imagem do Tênis" class="imagem fade" onclick="openModal()">
+                <img src="assets/images/image-product-2-thumbnail.jpg" alt="Thumbnail 2" class="thumbnail2 thumb" onclick="thumbAtual(2)">
 
-                <img src="images/image-product-3.jpg" alt="Imagem do Tênis" class="imagem fade" onclick="openModal()">
-                <img src="images/image-product-3-thumbnail.jpg" alt="Thumbnail 3" class="thumbnail3 thumb" onclick="thumbAtual(3)">
+                <img src="assets/images/image-product-3.jpg" alt="Imagem do Tênis" class="imagem fade" onclick="openModal()">
+                <img src="assets/images/image-product-3-thumbnail.jpg" alt="Thumbnail 3" class="thumbnail3 thumb" onclick="thumbAtual(3)">
 
-                <img src="images/image-product-4.jpg" alt="Imagem do Tênis" class="imagem fade" onclick="openModal()">
-                <img src="images/image-product-4-thumbnail.jpg" alt="Thumbnail 4" class="thumbnail4 thumb" onclick="thumbAtual(4)">
+                <img src="assets/images/image-product-4.jpg" alt="Imagem do Tênis" class="imagem fade" onclick="openModal()">
+                <img src="assets/images/image-product-4-thumbnail.jpg" alt="Thumbnail 4" class="thumbnail4 thumb" onclick="thumbAtual(4)">
 
                 <a class="btn-anterior" onclick="imagemAtual(-1)">&#10094;</a>
                 <a class="btn-proximo" onclick="imagemAtual(1)">&#10095;</a>
@@ -80,32 +80,32 @@
                 <span class="close cursor" onclick="closeModal()">&times;</span>
                 <div class="modal-content">
                     <div class="mySlides">
-                        <img src="images/image-product-1.jpg" alt="Imagem do Tênis">
+                        <img src="assets/images/image-product-1.jpg" alt="Imagem do Tênis">
                     </div>
                     <div class="mySlides">
-                        <img src="images/image-product-2.jpg" alt="Imagem do Tênis">
+                        <img src="assets/images/image-product-2.jpg" alt="Imagem do Tênis">
                     </div>
                     <div class="mySlides">
-                        <img src="images/image-product-3.jpg" alt="Imagem do Tênis">
+                        <img src="assets/images/image-product-3.jpg" alt="Imagem do Tênis">
                     </div>
                     <div class="mySlides">
-                        <img src="images/image-product-4.jpg" alt="Imagem do Tênis">
+                        <img src="assets/images/image-product-4.jpg" alt="Imagem do Tênis">
                     </div>
 
                     <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlide(1)">&#10095;</a>
 
                     <div class="column">
-                        <img src="images/image-product-1-thumbnail.jpg" alt="Thumbnail 1" class="demo demo1 cursor" onclick="currentSlide(1)">
+                        <img src="assets/images/image-product-1-thumbnail.jpg" alt="Thumbnail 1" class="demo demo1 cursor" onclick="currentSlide(1)">
                     </div>
                     <div class="column">
-                        <img src="images/image-product-2-thumbnail.jpg" alt="Thumbnail 2" class="demo demo2 cursor" onclick="currentSlide(2)">
+                        <img src="assets/images/image-product-2-thumbnail.jpg" alt="Thumbnail 2" class="demo demo2 cursor" onclick="currentSlide(2)">
                     </div>
                     <div class="column">
-                        <img src="images/image-product-3-thumbnail.jpg" alt="Thumbnail 3" class="demo demo3 cursor" onclick="currentSlide(3)">
+                        <img src="assets/images/image-product-3-thumbnail.jpg" alt="Thumbnail 3" class="demo demo3 cursor" onclick="currentSlide(3)">
                     </div>
                     <div class="column">
-                        <img src="images/image-product-4-thumbnail.jpg" alt="Thumbnail 4" class="demo demo4 cursor" onclick="currentSlide(4)">
+                        <img src="assets/images/image-product-4-thumbnail.jpg" alt="Thumbnail 4" class="demo demo4 cursor" onclick="currentSlide(4)">
                     </div>
                 </div>
             </div>
@@ -126,9 +126,9 @@
                 </div>
                 <div class="botoes">
                     <div class="botoes__adicionar-remover">
-                        <img src="images/icon-minus.svg" alt="Botão com sinal de menos" class="botoes__botao-menos" onclick="menos()">
+                        <img src="assets/images/icon-minus.svg" alt="Botão com sinal de menos" class="botoes__botao-menos" onclick="menos()">
                         <span class="botoes__quantidade-itens">0</span>
-                        <img src="images/icon-plus.svg" alt="Botão com sinal de mais" class="botoes__botao-mais" onclick="mais()">
+                        <img src="assets/images/icon-plus.svg" alt="Botão com sinal de mais" class="botoes__botao-mais" onclick="mais()">
                     </div>
                     <button class="botoes__botao-adiciona" onclick="addCart()">
                         <i class="fa-solid fa-cart-shopping"></i>
@@ -146,6 +146,6 @@
           </div>
     </footer>
 
-    <script src="main.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
