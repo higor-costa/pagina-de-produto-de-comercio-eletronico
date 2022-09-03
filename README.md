@@ -33,13 +33,12 @@ Os usuários devem ser capazes de:
 
 ![](screenshot/screenshot1.png)
 ![](screenshot/screenshot2.png)
-![](screenshot/screenshot3.png)
 
 - No mobile:
 
-![](screenshot/screenshot-mobile1.jpeg)
-![](screenshot/screenshot-mobile2.jpeg)
-![](screenshot/screenshot-mobile3.jpeg)
+![](screenshot/screenshot-mobile1.png)
+![](screenshot/screenshot-mobile2.png)
+![](screenshot/screenshot-mobile3.png)
 ![](screenshot/screenshot-mobile4.jpeg)
 
 ### Links
