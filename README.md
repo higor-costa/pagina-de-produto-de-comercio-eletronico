@@ -4,7 +4,6 @@ Esta é uma solução para o [desafio da página do produto de comércio eletrô
 ## Índice
 
 - [Visão geral](#visão-geral)
-  - [O desafio](#the-challenge)
   - [Captura de tela](#captura-de-tela)
   - [Links](#links)
 - [Meu processo](#meu-processo)
@@ -15,17 +14,6 @@ Esta é uma solução para o [desafio da página do produto de comércio eletrô
 
 
 ## Visão geral
-
-### O desafio
-
-Os usuários devem ser capazes de:
-
-- Visualize o layout ideal para o site, dependendo do tamanho da tela do dispositivo
-- Veja os estados de foco para todos os elementos interativos na página
-- Abra uma galeria lightbox clicando na imagem grande do produto
-- Mude a imagem grande do produto clicando nas pequenas imagens em miniatura
-- Adicionar itens ao carrinho
-- Visualize o carrinho e remova itens dele
 
 ### Captura de tela
 
@@ -43,8 +31,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da solução: [Adicione o URL da solução aqui](https://your-solution-url.com)
-- URL do site ao vivo: [Adicione o URL do site ao vivo aqui](https://your-live-site-url.com)
+- URL da solução: [Solução](https://www.frontendmentor.io/solutions/pgina-do-produto-de-comrcio-eletrnico-com-html-css-e-js-HJYhhJ_89)
+- URL do site ao vivo: [Site](https://higor-costa.github.io/pagina-de-produto-de-comercio-eletronico/)
 
 ## Meu processo
 
