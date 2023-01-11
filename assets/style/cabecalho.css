@@ -285,6 +285,10 @@ body {
         align-items: flex-start;
     }
 
+    .cabecalho__menu.ativado {
+        width: 200px;
+    }
+
     .cabecalho__menu > img, 
     .menu__lista {
         padding: 20px 0 0 20px;
