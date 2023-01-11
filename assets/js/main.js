@@ -12,6 +12,27 @@ function controleCaixaMensagem() {
 const iconeCarrinho = document.querySelector(".carrinho");
 iconeCarrinho.addEventListener("click", controleCaixaMensagem)
 
+// Função para abrir/fechar o menu mobile. Caso a caixa de mensagem do carrinho esteja aberta, ela será fechada.
+function controlaMenu() {
+  // abre o menu e fecha caixa de mensagem
+  if(this.dataset.controleMenu === 'abre menu') {
+    menuMobile.classList.add('ativado');
+    caixaMensagem.classList.remove('ativado');
+  }
+  // fecha o menu
+  else {
+    menuMobile.classList.remove('ativado');
+  }
+}
+
+const botoesAbrirFechar = document.querySelectorAll('[data-controle-menu]'); // Menu Hamburguer e o 'X'
+botoesAbrirFechar.forEach(botao => {
+  const eventos = ['touchstart', 'click'];
+  eventos.forEach(evento => {
+    botao.addEventListener(evento, controlaMenu)
+  })
+})
+
 // Função responsável pelo slideshow
 let slideIndex = 1;
 mostrarThumbs(slideIndex);
@@ -148,14 +169,3 @@ function mostrarImagem(n) {
   }
   imagem[slideindex-1].style.display = "block";
 }
-
-function openMenu() {
-  document.querySelector('.cabecalho__menu').style.width = "200px";
-  let caixaMensagem = document.getElementById("caixa-mensagem");
-  caixaMensagem.style.display = 'none'
-}
-
-function closeMenu() {
-  document.querySelector('.cabecalho__menu').style.width = "0";
-}
-
