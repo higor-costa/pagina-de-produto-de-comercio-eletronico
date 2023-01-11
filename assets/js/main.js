@@ -33,25 +33,33 @@ botoesAbrirFechar.forEach(botao => {
   })
 })
 
-// Função responsável pelo slideshow
-let slideIndex = 1;
-mostrarThumbs(slideIndex);
-
-function thumbAtual(n) {
-  mostrarThumbs(slideIndex = n);
+// Funções responsáveis por mostrar no slide a imagem relacionada à thumbnail
+function thumbAtual(index) {
+  mostrarThumbs(slideIndex = index);
 }
 
-function mostrarThumbs() {
-  let index;
-  let imagens = document.getElementsByClassName("imagem");
-  let thumbs = document.getElementsByClassName("thumb");
-  
-  for (index = 0; index < imagens.length; index++) {
-    imagens[index].style.display = "none";
-  }
-  for (index = 0; index < thumbs.length; index++) {
-    thumbs[index].className = thumbs[index].className.replace(" active", "");
-  }
+const thumbs = document.querySelectorAll(".thumb");
+thumbs.forEach((thumb, index) => {
+  thumb.addEventListener('click', () => {
+    thumbAtual(index + 1); // a thumb que for clicada invocará a função passando como argumento o seu index incrementado
+  })
+})
+
+let slideIndex = 1;
+mostrarThumbs(slideIndex); // Mostra a primeira thumbnail assim que a página é carregada
+
+function mostrarThumbs(slideIndex) {
+  const imagens = document.querySelectorAll(".imagem");
+
+  imagens.forEach(imagem => {
+    imagem.style.display = 'none';
+  })
+
+  thumbs.forEach(thumb => {
+    thumb.className = thumb.className.replace(' active', '');
+  })
+
+  // slideIndex é decrementada, impossibilitando um index inválido
   imagens[slideIndex-1].style.display = "block";
   thumbs[slideIndex-1].className += " active";
 }
