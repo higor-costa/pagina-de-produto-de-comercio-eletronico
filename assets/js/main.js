@@ -1,14 +1,16 @@
 // Esta função faz com que a caixa de itens adicionados ao carrinho seja exibida/escondida e feche o menu mobile, caso ele esteja aberto, quando o ícone do carrinho for clicado
-function mostrarCaixa() {
-    let caixaMensagem = document.getElementById("caixa-mensagem");
-    if (caixaMensagem.style.display === "block") {
-        caixaMensagem.style.display = "none";
-    } else {
-        caixaMensagem.style.display = "block";
-        document.querySelector('.cabecalho__menu').style.width = "0";
-    }
+const caixaMensagem = document.getElementById("caixa-mensagem");
+const menuMobile = document.querySelector(".cabecalho__menu");
+function controleCaixaMensagem() {
+
+  caixaMensagem.classList.toggle("ativado");
+
+  if(menuMobile.classList.contains("ativado"))
+    menuMobile.classList.remove('ativado');
 }
 
+const iconeCarrinho = document.querySelector(".carrinho");
+iconeCarrinho.addEventListener("click", controleCaixaMensagem)
 
 // Função responsável pelo slideshow
 let slideIndex = 1;
