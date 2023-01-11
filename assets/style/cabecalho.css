@@ -119,6 +119,10 @@ body {
     display: none;
 }
 
+.carrinho-caixa.ativado {
+    display: block;
+}
+
 .carrinho-caixa__titulo {
     display: flex;
     padding: 15px;
