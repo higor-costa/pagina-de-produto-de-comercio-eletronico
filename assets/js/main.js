@@ -128,21 +128,28 @@ function mostraSlides(index) {
   thumbsModal[slidesIndex-1].className += ' ativo';
 }
 
-// Função para aumentar e diminuir itens no carrinho
-let quantidade = document.querySelector(".botoes__quantidade-itens")
+// Função para adicionar e remover itens do carrinho
 let contador = 0;
-function mais() {
-  contador++;
-  quantidade.innerText = contador;
-}
-
-function menos() {
-  while(quantidade.innerText > 0) {
-    contador--;
+function adicionaRemoveItem(event) {
+  let quantidade = document.querySelector(".botoes__quantidade-itens");
+  const botao = event.target;
+  if(botao.dataset.botao === 'mais') {
+    contador++;
     quantidade.innerText = contador;
-    break;
+  }
+  else {
+    while(quantidade.innerText > 0) {
+      contador--;
+      quantidade.innerText = contador;
+      break;
+    }
   }
 }
+
+const botoesMaisMenos = document.querySelectorAll('[data-botao]');
+botoesMaisMenos.forEach(botao => {
+  botao.addEventListener('click', adicionaRemoveItem);
+})
 
 // Função para adicionar itens ao carrinho quando o botão "Add to cart" for clicado
 function addCart() {
