@@ -64,16 +64,14 @@ function mostrarThumbs(slideIndex) {
   thumbs[slideIndex-1].className += " active";
 }
 
-
-// Abre o Modal
-function openModal() {
-  document.getElementById("myModal").style.display = "block";
+function controleLightbox(event) {
+  const elementoClicado = event.target;
+  if(elementoClicado.classList.contains('imagem'))
+    document.getElementById("myModal").style.display = "block";
+  else if(elementoClicado.classList.contains('close'))
+    document.getElementById("myModal").style.display = "none";
 }
-
-// Fechar o Modal
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
-}
+window.addEventListener('click', controleLightbox);
 
 var slidesIndex = 1;
 showSlides(slidesIndex);
