@@ -76,33 +76,56 @@ function controleLightbox(event) {
 }
 window.addEventListener('click', controleLightbox);
 
-var slidesIndex = 1;
-showSlides(slidesIndex);
-
-// Controles próximo/anterior
-function plusSlide(n) {
-  showSlides(slidesIndex += n);
+// função para navegar pelo slide através dos botões anterior/proximo 
+function navegacaoSlide(BotaoIndex) {
+  mostraSlides(slidesIndex += BotaoIndex);
 }
 
-// Controle de imagens em miniatura
-function currentSlide(n) {
-  showSlides(slidesIndex = n);
+const botaoAnterior = document.querySelector('.prev');
+const botaoProximo = document.querySelector('.next');
+const arrayBotoes = [botaoAnterior, botaoProximo];
+arrayBotoes.forEach((botao, index) => {
+  botao.addEventListener('click', () => {
+    if(index === 0) {
+      navegacaoSlide(-1); // caso o botão anterior seja clicado, o index -1 será passado como argumento
+    }
+    else {
+      navegacaoSlide(index); // caso o botão proximo seja clicado, o index 1 será passado como argumento
+    }
+  })
+})
+
+// Função para navegar pelo slide através das thumbs
+function slideAtual(index) {
+  mostraSlides(slidesIndex = index);
 }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > slides.length) {slidesIndex = 1}
-  if (n < 1) {slidesIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" ativo", "");
-  }
-  slides[slidesIndex-1].style.display = "block";
-  dots[slidesIndex-1].className += " ativo";
+const thumbsModal = document.querySelectorAll('.demo');
+thumbsModal.forEach((thumb, index) => {
+  thumb.addEventListener('click', () => {
+    slideAtual(index + 1);
+  })
+})
+
+let slidesIndex = 1;
+mostraSlides(slidesIndex);
+
+function mostraSlides(index) {
+  const slidesModal = document.querySelectorAll('.mySlides');
+
+  slidesModal.forEach(slide => {
+    slide.style.display = 'none';
+  })
+
+  thumbsModal.forEach(thumb => {
+    thumb.className = thumb.className.replace(' ativo', '');
+  })
+
+  if (index > slidesModal.length) {slidesIndex = 1}
+  if (index < 1) {slidesIndex = slidesModal.length}
+  
+  slidesModal[slidesIndex-1].style.display = 'block';
+  thumbsModal[slidesIndex-1].className += ' ativo';
 }
 
 // Função para aumentar e diminuir itens no carrinho
