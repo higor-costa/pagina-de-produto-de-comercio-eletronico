@@ -64,10 +64,13 @@ function mostrarThumbs(slideIndex) {
   thumbs[slideIndex-1].className += " active";
 }
 
+// Função para abrir e fechar o modal
 function controleLightbox(event) {
   const elementoClicado = event.target;
+  // se o elemento clicado for uma das imagens do slide, o modal será aberto
   if(elementoClicado.classList.contains('imagem'))
     document.getElementById("myModal").style.display = "block";
+  // se o elemento clicado for o icone "X" dentro do modal, então ele será fechado
   else if(elementoClicado.classList.contains('close'))
     document.getElementById("myModal").style.display = "none";
 }
