@@ -130,8 +130,8 @@ function mostraSlides(index) {
 
 // Função para adicionar e remover itens do carrinho
 let contador = 0;
+const quantidade = document.querySelector(".botoes__quantidade-itens");
 function adicionaRemoveItem(event) {
-  let quantidade = document.querySelector(".botoes__quantidade-itens");
   const botao = event.target;
   if(botao.dataset.botao === 'mais') {
     contador++;
